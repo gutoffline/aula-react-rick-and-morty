@@ -25,7 +25,7 @@ function App() {
       <div className='lista'>
         {
           personagens.map(function (umPersonagem) {
-            return <Card info={umPersonagem} /> 
+            return <Card info={umPersonagem} />
           })
         }
       </div>
